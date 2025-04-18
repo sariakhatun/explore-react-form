@@ -4,7 +4,7 @@ import UseInputField from '../../Hooks/UseInputField';
 const HookForm = () => {
     let [name,nameOnChange] = UseInputField('')
     let [email,emailOnChange] = UseInputField('')
-    let [password,passwordOnChange] = UseInpugittField('')
+    let [password,passwordOnChange] = UseInputField('')
     let handleSubmit = e =>{
         e.preventDefault();
         console.log(name,email,password)
